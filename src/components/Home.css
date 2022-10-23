@@ -1,0 +1,43 @@
+.profile-pic {
+    width: 700px;
+    height: 600px;
+    object-fit: none;
+    object-position: -675px -300px;
+    transform:scale(0.8);
+    border-radius: 50px;
+}
+
+.home-title {
+    animation: titleAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.home-intro {
+    animation: introAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    visibility: hidden;
+    font-size: large;
+}
+
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+  
+@keyframes introAnimation {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
