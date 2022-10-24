@@ -1,1 +1,1 @@
-A portfolio webpage create using React.
+A portfolio webpage created using React.
